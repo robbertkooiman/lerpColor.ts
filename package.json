@@ -1,0 +1,29 @@
+{
+  "name": "lerpcolor",
+  "version": "1.0.0",
+  "description": "A small function to linearly interpolate colors",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbertkooiman/lerpColor.ts.git"
+  },
+  "keywords": [
+    "lerp",
+    "color"
+  ],
+  "author": "Robbert Kooiman <robbertkooiman95@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbertkooiman/lerpColor.ts/issues"
+  },
+  "homepage": "https://github.com/robbertkooiman/lerpColor.ts#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "typescript": "^2.8.4"
+  }
+}
